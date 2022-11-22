@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" src="scripts.js"></script>
+  <link rel="stylesheet" href="RWD .css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div class="header">
+        <center>
+            <h1>My Online Shopping Magazine</h1>
+        </center>
+    </div>
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#aboutus">About Us</a>
+        <a href="#service">Service</a>
+        <a href="#contactus">Contact Us</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    <div class="categories">
+        <div class="categories_item">
+            <h1>LifeStyle</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima voluptatibus repellat, 
+            ducimus quo quos hic eum sit nihil 
+            a eligendi non amet, corporis quaerat obcaecati dolorem nisi iure velit at?</p>
+        </div>
+        <div class="categories_item">
+            <h2>Business</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus maiores,
+                adipisci quia blanditiis libero natus. Tenetur veniam esse natus impedit, adipisci, 
+               illo ex commodi quis repellat eos culpa nobis!</p>
+        </div>
+        <div class="categories_item">
+            <h2>Sport</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa, repellat beatae veritatis quibusdam
+                numquam sapiente illum aliquam, 
+                a dicta vitae incidunt? Facere nisi dicta aut tempore mollitia reiciendis quis doloremque?</p>
+
+        </div>
+    </div>
+</body>
+<script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+
+</html>
